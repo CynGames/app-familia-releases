@@ -1,0 +1,33 @@
+OFERTA DE CÓDIGO FUENTE CORRESPONDIENTE
+
+Aplicación de Familia incluye yt-dlp 2026.08.19, yt_dlp_ejs 0.8.0 y una
+compilación FFmpeg 9.0.1 de Gyan Doshi, distribuidos bajo GPL-3.0-or-later.
+
+CynGames ofrece a cualquier persona que reciba una copia de esta aplicación
+el código fuente correspondiente completo, incluidos los scripts e información
+disponibles para reconstruir esas herramientas, sin cargo por la descarga. Esta
+oferta es válida hasta el 20 de septiembre de 2029. Si se solicita una copia en
+un medio físico, el cargo no excederá el costo razonable de dicho medio y envío.
+
+Para solicitarlo, abre un issue público en:
+https://github.com/CynGames/app-familia-releases/issues
+
+Fuentes exactas disponibles inmediatamente:
+- yt-dlp 2026.08.19:
+  https://github.com/yt-dlp/yt-dlp/releases/download/2026.08.19/yt-dlp.tar.gz
+- yt_dlp_ejs 0.8.0:
+  https://github.com/yt-dlp/ejs/releases/download/0.8.0/yt_dlp_ejs-0.8.0.tar.gz
+- FFmpeg usado por la compilación Gyan 9.0.1, commit bf1b838f2a:
+  https://github.com/FFmpeg/FFmpeg/archive/bf1b838f2a.tar.gz
+- Información de la compilación y bibliotecas enlazadas:
+  https://github.com/GyanD/codexffmpeg/releases/tag/9.0.1
+  https://www.gyan.dev/ffmpeg/builds/
+
+CORRESPONDING SOURCE OFFER
+
+The same offer applies to any recipient worldwide. CynGames will provide the
+complete corresponding source for the GPL-covered tools above, including the
+available scripts and information needed to rebuild them, at no charge for a
+download. This offer remains valid through September 20, 2029. Physical media,
+if requested, will cost no more than the reasonable cost of media and shipping.
+Use the public issue URL above to request a copy.
