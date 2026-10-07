@@ -1,0 +1,74 @@
+APLICACIÓN DE FAMILIA — INSTALACIÓN Y PRUEBAS
+
+Para computadoras con Windows 10 u 11 de 64 bits (Intel o AMD).
+
+INSTALACIÓN
+1. Haz doble clic en el archivo que termina en -setup.exe de esta carpeta.
+2. Sigue las instrucciones y abre Aplicación de Familia desde el menú Inicio.
+   La aplicación se instala para tu cuenta de Windows. El instalador incluye
+   WebView2 y las herramientas necesarias para descargar y convertir archivos.
+3. Conéctate a internet para iniciar sesión en YouTube y descargar videos.
+   Sigue las indicaciones para iniciar sesión desde Firefox o Brave. Si no
+   tienes ninguno, la aplicación puede descargar Brave (requiere internet).
+
+ACTUALIZACIONES
+La aplicación busca actualizaciones al iniciarse y una vez al día.
+También puedes pulsar «Buscar actualizaciones», al pie de la ventana.
+Si hay una nueva versión, verás un aviso discreto con «Actualizar y reiniciar».
+Puedes cerrar el aviso con la × y seguir usando la aplicación.
+Durante la descarga puedes pulsar «Cancelar actualización». Una vez que
+comienza la instalación, debes esperar a que termine y se reinicie la aplicación.
+Para probar este paquete exacto, cierra los avisos sin instalar actualizaciones.
+La herramienta de descarga yt-dlp también puede actualizarse una vez al día.
+
+Reserva al menos 1 GB de espacio libre para la instalación, además del espacio
+necesario para los videos y audios que quieras guardar.
+Este instalador de prueba no tiene firma de editor. Windows puede mostrar un
+aviso de editor desconocido. Si Windows o la política de tu organización impide
+instalarlo, contacta a quien te entregó el paquete. No desactives la seguridad.
+
+PRUEBAS ANTES DE LA ENTREGA
+Realiza la primera prueba en otra cuenta de Windows o en una computadora o
+máquina virtual limpia, sin herramientas de desarrollo ni sesiones guardadas.
+1. Instala, abre la aplicación e inicia sesión en YouTube desde el navegador.
+   Comprueba que el instalador y la aplicación estén en español.
+   La comprobación automática muestra un indicador de actividad. Si no se
+   detecta la sesión en cinco minutos, aparece «Comprobar de nuevo».
+2. Pega el enlace de un video corto de YouTube que tengas permiso de descargar.
+   Prueba Ctrl+V y el botón «Pegar». Comprueba que se habilite «Descargar».
+   Alterna entre Video (MP4) y Audio (MP3); el enlace debe conservarse.
+3. Elige MP4, selecciona una carpeta, descarga el video y reprodúcelo.
+4. Cierra la aplicación desde la pantalla de descarga completada, vuelve a
+   abrirla y comprueba que puedas iniciar otra descarga.
+5. Repite la descarga con MP3 y reproduce el audio. Cierra y vuelve a abrir.
+6. Cancela durante «Preparando descarga…» y durante una descarga. Comprueba
+   que termine la cancelación, que puedas descargar otro archivo y que al
+   cerrar y abrir no vuelva a iniciarse la descarga cancelada.
+7. Cierra durante una descarga y vuelve a abrir. La descarga pendiente debe
+   reanudarse; si el archivo ya existe, debe indicarlo sin sobrescribirlo.
+8. Prueba un enlace inválido y comprueba que el error sea claro y esté en español.
+9. Pulsa «Buscar actualizaciones». Comprueba el aviso y ciérralo con la ×.
+   Comprueba que buscar actualizaciones permita seguir usando el formulario.
+10. Opcional: desinstala desde Configuración > Aplicaciones y vuelve a instalar.
+    La desinstalación elimina los ajustes y la sesión guardada de la aplicación,
+    pero conserva Brave. Guarda las descargas fuera de las carpetas de la aplicación.
+
+PRUEBA DE ACTUALIZACIÓN ENTRE VERSIONES
+Cuando el distribuidor habilite una versión de prueba posterior, instala primero
+la versión anterior en una cuenta de pruebas, inicia sesión, elige un formato y
+descarga un archivo. Actualiza desde «Actualizar y reiniciar». Después del reinicio,
+comprueba que se conserven el formato, la última carpeta y la sesión de YouTube,
+y que puedas descargar otro archivo. Reinstalar esta misma versión no sustituye
+esta prueba. Para evaluar el paquete actual, sigue los pasos anteriores.
+
+ENTREGA
+Este paquete incluye OFERTA-DE-CODIGO-FUENTE.txt, con una oferta escrita y
+enlaces versionados para obtener el código fuente correspondiente de las
+herramientas GPL incluidas. Entrega siempre la carpeta completa para que la
+oferta, los avisos y las sumas de verificación acompañen al instalador.
+Copia toda esta carpeta a una unidad USB o disco externo cuando pasen las pruebas.
+El cliente ejecuta el mismo instalador y luego puede desconectar la unidad.
+No copies el repositorio, perfiles del navegador, cookies ni datos de la aplicación.
+
+Si falla una prueba, anota el paso, la versión de Windows y los detalles técnicos
+que ofrezca la aplicación. SHA256SUMS.txt identifica los archivos exactos del paquete.
